@@ -1,0 +1,82 @@
+.carousel-indicators [data-bs-target]{
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+}
+.banner{
+	background-image: url("../media/slide_01.jpg");
+	height: 500px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-position: center;
+}
+.banner2{
+	background-image: url("../media/slide_02.jpg");
+	height: 500px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-position: center;
+}
+.banner3{
+	background-image: url("../media/slide_03.jpg");
+	height: 500px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-position: center;
+}
+.bannerAbout{
+	background-image: url("../media/about-heading.jpg");
+	height: 400px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bannerText{
+	font-size: 70px;	
+}
+
+/*products section css*/
+.sectionPadding{
+	padding: 80px 0px; 
+}
+.nav-pills .active{
+	background-color: green !important;
+}
+
+@media screen and (max-width: 991px){
+	.banner,.banner2,.banner3,.bannerAbout{
+		height: 350px;
+	}
+	.bannerText{
+		font-size: 40px;
+	}
+	.sectionPadding{
+		padding: 50px 0px; 
+	}
+}
+@media screen and (max-width: 767px){
+	.banner,.banner2,.banner3,.bannerAbout{
+		height: 250px;
+	}
+	.bannerText{
+		font-size: 30px;
+	}
+	.sectionPadding{
+		padding: 30px 0px; 
+	}
+}
+@media screen and (max-width: 424px){
+	.bannerText{
+		font-size: 20px;
+	}
+}
